@@ -15,8 +15,6 @@ int main() {
                 for (int s = 0; s < N; s++) {
                     if (S[s] - '0' == pw[index] - '0') {
                         index++;
-                    }
-                    if (index == 3) {
                         if (checker[stoi(pw)] == 0) checker[stoi(pw)]++;
                         else continue;;
                         res++;
