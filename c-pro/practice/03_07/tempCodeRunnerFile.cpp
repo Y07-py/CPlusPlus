@@ -1,0 +1,1 @@
+   cout << ny << " " << nx << endl;
